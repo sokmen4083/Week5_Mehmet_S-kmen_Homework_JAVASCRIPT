@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Page</title>
+</head>
+<body class="col-">
+    <!--This page created by Mehmet Sökmen-->
+    <h1>THIS IS MY WEBSITE</h1>
+<nav id="header">
+    <ul>
+        <li><a href="#" >Who am I ?</a></li>
+        <li><a href="#" >About Me</a</li>
+        <li><a href="#" >My Works</a></li>
+        <li><a href="#" >My Hobbies</a></li>
+        <li><a href="#" >About of Switzerland</a></li>
+    </ul>
+</nav>
+    <div id="container">
+        <div id="first">
+    <div id="wrapper">
+        <h2>Who am I ? <img src="./images/mehmet_sokmen.jpg" alt="Mehmet Sokmen" id="photo"/></h2>
+    <p>My name is Mehmet Sökmen. I am from Turkey. I'm 33 years old. 
+        I'm married and I have one daughter.
+        I am an experienced Mathematics and Physics teacher.
+        I worked as a teacher 5 years in Turkey, 1 year in Sudan, 3 years in Iraq . 
+    </p>
+    <a href="https://github.com/sokmen4083">Click to My GitHub <img id="github" src="./images/GitHub-Logo.png" alt="GitHub Logo"/></a>
+    </br>
+    <a href="https://www.linkedin.com/in/mehmet-s%C3%B6kmen-0b34851b8/">Click to My Linkedin<img id="linkedin" src="./images/linkedin-logo.png" alt="Linkedin Logo"/></a>
+    </div>
+    <div id="hobby">
+        <h2>My Hobbies</h2>
+        <ul id="hobby-link">
+            <li><a href="./car/index.html">Cars <img class="car" src="./images/cars.jpg"></a></li>
+            <li><a href="./hobbies/football.html"> Playing Football <img class="icon" src="./images/football.png"></a></li>
+            <li><a href="./hobbies/music.html">Listening Music <img class="icon" src="./images/listen.png"></a></li>
+            <li><a href="./hobbies/book.html">Reading Book <img class="icon" src="./images/reading.png"></a></li>
+            <li><a href="./hobbies/cooking.html">Cooking <img class="icon" src="./images/cooking.png"></a></li>
+            <li><a href="./hobbies/eating.html">Eating <img class="icon" src="./images/eating.png"></a></li>
+            <li><a href="./hobbies/coding.html">Coding <img class="icon" src="./images/coding.png"></a></li>
+        </ul>
+    </li>
+    </div>
+</div>
+<div id="second">
+<div id="work">
+    <h2>My Works</h2>
+    <table class="table">
+        <th>Institution of employment</th>
+        <th>Starting Year</th>
+        <th>End Year</th>
+        <th>Calculate</th>
+        <th>How many years worked</th>
+        <tr>
+            <td>Elazig Fem Privat School(in Turkey)</td>
+            <td><input type="number" value="2010" id="start1"></input></td>
+            <td><input type="number" value="2011" id="finish1"></input></td>
+           <td><button onclick="year1()">Calculate</button></td>
+            <td id="year1"></td>
+        </tr>
+        <tr>
+            <td>Bingol Fem Privat School(in Turkey)</td>
+            <td><input type="number" value="2011" id="start2"></input></td>
+            <td><input type="number" value="2015" id="finish2"></input></td>
+           <td><button onclick="year2()">Calculate</button></td>
+            <td id="year2"></td>
+        </tr><tr>
+            <td>Sudan Turkish School(in Sudan)</td>
+            <td><input type="number" value="2015" id="start3"></input></td>
+            <td><input type="number" value="2016" id="finish3"></input></td>
+           <td><button onclick="year3()">Calculate</button></td>
+            <td id="year3"></td>
+        </tr>
+        <tr>
+            <td>Ronaki Hawler Education Company(in Iraq)</td>
+            <td><input type="number" value="2016" id="start4"></input></td>
+            <td><input type="number" value="2019" id="finish4"></input></td>
+           <td><button onclick="year4()">Calculate</button></td>
+            <td id="year4"></td>
+        </tr>
+        <tr>
+            <td class="total" colspan="4">Total Working Years</td>
+            <td id="total-year"></td>
+        </tr>
+    </table>
+</div>
+<div id="about">
+    <h2>My Schools</h2>
+    <ol>
+        <li><a href="https://kibrisilkokulu.meb.k12.tr/">Kibris Primary School(in Turkey)</a></li>
+        <li><a href="https://kibrisortaokulu.meb.k12.tr/">Kibris Secondary School(in Turkey)</a></li>
+        <li><a href="https://mimarsinanlisesi.meb.k12.tr/">Mimar Sinan High School(in Turkey)</a></li>
+        <li><a href="http://www.firat.edu.tr/tr">Firat University(in Turkey)</a></li>
+    </ol>
+</div>
+
+<div id="video">
+<h2>About of Switzerland</h2>
+<video  width="360" height="320"controls>
+    <source src="./video/Top 10 Places To Visit In Switzerland.mp4" type="video/mp4">
+</video>
+<div id="switzerland">Top 10 Places To Visit In Switzerland</div>
+</div>
+</div>
+</div>
+    
+     <script src="./app.js"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

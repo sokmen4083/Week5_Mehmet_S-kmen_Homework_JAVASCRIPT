@@ -1,0 +1,145 @@
+table{
+    border-style: groove;
+    border-color: brown;
+    background-color: chartreuse;
+}
+tr,td{
+    border-style: solid;
+}
+body{
+    background-color:darkgrey
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+#photo{
+    width: 80px;
+    height: 80px;
+}
+li{
+    text-decoration: underline;
+    font-size: 25px;
+}
+input,label{
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bolder;
+    color:blue;
+}
+nav ul li button{
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+#switzerland{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#container{
+    display: flex;
+}
+#container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    padding: 15px,30px,20px,15px;
+}
+#first{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+#second{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+#first > div,#second > div{
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#about{
+    height: 60%;
+}
+#wrapper {
+    height: 60%;
+    font-size: 30px;
+}
+
+#github,#linkedin{
+    width: 60px;
+}
+.icon {
+    width: 40px;
+}
+
+  #wrapper > h2:hover,#about > h2:hover,#work > h2:hover,#hobby > h2:hover, #video > h2:hover{
+      background-color: blue;
+      color:paleturquoise;
+  }
+  #wrapper > p:hover{
+    background-color:green;
+    color:white;
+}
+#wrapper > a:hover,#about > ol > li > a:hover,#hobby-link > li > a:hover{
+    background-color:yellow;
+    color:red;
+}
+.table:hover{
+    background-color: aqua;
+}
+h1:hover{
+    color: yellow;
+    background-color: aqua;
+}
+#header ul li:hover:nth-child(3){
+    background-color: brown;
+}
+
+#header > ul > li:hover:nth-child(5){
+    background-color: yellow;
+}
+#header > ul > li:hover{
+    background-color:red;
+}
+#header > ul > li > a:hover{
+    background-color:red;
+    color: yellow;
+}
+nav ul li {
+    margin: 0 60px;
+    display: inline-block;
+    line-height: 80px;
+}
+.table tr:hover:nth-child(3){
+    background-color: black;
+    color: white;
+}
+td input{
+    width: 60%;
+}
+.total{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+.car{
+    width: 70px;
+}
